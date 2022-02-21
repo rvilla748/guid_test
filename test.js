@@ -4,7 +4,7 @@ http.createServer(function(req,res){
     res.write('Hello World');
     res.end();
 }).listen(8080);   */
-const names = 'Hello'
+const names = 'Hello World'
 
 console.log("Node is working");
 console.log('Node is %s','working');
